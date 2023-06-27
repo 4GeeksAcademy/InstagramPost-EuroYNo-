@@ -1,8 +1,6 @@
 body {
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 50px 200px 50px 200px;
 }
 div .post {
     width: 300px;
@@ -12,21 +10,23 @@ div .post {
 }
 div .post-header {
     display: flex;
-    background-color: brown;
+    background-color: rgb(183, 64, 64);
+   
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
  div .img {
-    position: relative;
+    background-color: beige;
+    justify-content: center;
     display: flex;
  } 
 
  div .pies{
     background-color: blue;
     position: relative;
-    display: flex;
+    
  }
 
 .logo {
@@ -36,5 +36,11 @@ div .post-header {
    width: 15%;
 }
 .trespuntos {
-    width:60%;
+   margin-left: auto;
+}
+.emojis {
+    display:flex;
+}
+.save{
+    margin-left: auto;
 }
