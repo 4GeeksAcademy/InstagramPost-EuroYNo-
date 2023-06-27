@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div .post {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    
+}
+div .post-header {
+    display: flex;
+    background-color: brown;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ div .img {
+    position: relative;
+    display: flex;
+ } 
+
+ div .pies{
+    background-color: blue;
+    position: relative;
+    display: flex;
+ }
+
+.logo {
+    width: 15%;
+}
+.html {
+   width: 15%;
+}
+.trespuntos {
+    width:60%;
+}
