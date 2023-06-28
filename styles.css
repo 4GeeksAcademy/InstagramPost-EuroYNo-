@@ -1,16 +1,18 @@
 body {
     background-color: black;
-    margin: 150px 450px 150px 450px;
     font-family: roboto;
+    display: flex;
+    justify-content: center;
 
 }
-div .post {
-    width: 300px;
+.post {
+    width: 500px;
     height: 400px;
     background-color: white;
     
+    
 }
-div .post-header {
+div.post-header {
     display: flex;
     background-color: white;
    
@@ -19,13 +21,13 @@ div .post-header {
     justify-content: center;
     align-items: center;
 }
- div .img {
+ div.img {
     background-color: beige;
     justify-content: center;
     display: flex;
  } 
 
- div .pies{
+ div.pies{
     background-color: white;
     position: relative;
     
