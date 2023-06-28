@@ -1,6 +1,8 @@
 body {
     background-color: black;
-    margin: 50px 200px 50px 200px;
+    margin: 150px 450px 150px 450px;
+    font-family: roboto;
+
 }
 div .post {
     width: 300px;
@@ -10,7 +12,7 @@ div .post {
 }
 div .post-header {
     display: flex;
-    background-color: rgb(183, 64, 64);
+    background-color: white;
    
     position: relative;
     display: flex;
@@ -24,23 +26,44 @@ div .post-header {
  } 
 
  div .pies{
-    background-color: blue;
+    background-color: white;
     position: relative;
     
  }
 
 .logo {
-    width: 15%;
+    padding: 1%;
+    font-size:xx-large;
 }
 .html {
-   width: 15%;
+    font-weight: bold;
+}
+.nombre{
+    font-weight: lighter;
 }
 .trespuntos {
-   margin-left: auto;
+    padding-right: 3%;
+    font-size: xx-large;
+    margin-left: auto;
 }
 .emojis {
     display:flex;
+    padding: 1%;
+    font-size: xx-large;
+}
+.heart{
+    padding-right: 1%;
+}
+.comment{
+    padding-right: 1%;
 }
 .save{
+    padding:2%;
     margin-left: auto;
+}
+.liked{
+    padding: 2%;
+}
+.descripcion{
+    padding: 2%;
 }
